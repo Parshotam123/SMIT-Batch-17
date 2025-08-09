@@ -26,3 +26,22 @@ if (Flag) {
 } else {
   console.log("Number nahi mila.");
 }
+
+// Nested Loops
+
+var firstNames = ["Adil ", "Rizwan ", "Sufiyan "];
+var lastNames = ["Khan", "Choudry"];
+var fullNames = [];
+for (var i = 0; i < firstNames.length; i++) {
+  for (var j = 0; j < lastNames.length; j++) {
+    fullNames.push(firstNames[i] + lastNames[j]);
+  }
+}
+
+// Output
+// Adil Khan
+// Rizwan Khan
+// Sufiyan Khan
+// Adil Choudry
+// Rizwan Choudry
+// Sufiyan Choudry
