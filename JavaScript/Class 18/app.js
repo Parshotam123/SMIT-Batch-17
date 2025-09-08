@@ -18,3 +18,29 @@ var nameOfToday = dayNames[theDay];
 
 
 console.log(nameOfToday)
+
+// Month Method
+
+var d = new Date();
+var currentMonth = d.getMonth();
+
+// Date Method
+var dayOfMonth = d.getDate();
+
+// Full Year Method
+var currYr = d.getFullYear();
+
+// Hours Method
+var currentHrs = d.getHours();
+
+// Minutes Method
+var currMins = d.getMinutes();
+
+// Seconds Methods
+var currSecs = d.getSeconds()
+
+// Miliseconds Method
+var currMills = d.getMilliseconds();
+
+// Time Methods
+var millsSince = d.getTime();
