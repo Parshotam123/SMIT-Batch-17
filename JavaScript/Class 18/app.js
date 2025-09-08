@@ -44,3 +44,25 @@ var currMills = d.getMilliseconds();
 
 // Time Methods
 var millsSince = d.getTime();
+
+// Specific Date and Time (Ramadan Example in Class)
+
+var today = new Date();
+var doomsday = new Date("June 30, 2035");
+var msToday = today.getTime();
+var msDoomsday = doomsday.getTime();
+var msDiff = msDoomsday - msToday;
+var dDiff = msDiff / (1000 * 60 * 60 * 24);
+dDiff = Math.floor(dDiff);
+
+
+// Specific Date and Time (concise code)
+var msDiff = new Date("June 30, 2035").getTime() - new Date().getTime();
+var daysTillDoom = Mathfloor(msDiff / (1000 * 60 * 60 * 24));
+
+
+// Particular Date and Time
+
+var d = new Date("July 21, 1983 13:25:00");
+
+
