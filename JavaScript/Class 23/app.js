@@ -16,3 +16,6 @@ do {
   i++;
 } while (i <= 3);
 
+// Placing Script Tag
+
+// Commenting
