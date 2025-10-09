@@ -15,3 +15,13 @@ function makeInvisible() {
 function swapPic() {
     document.getElementById("before").src = "https://newsaylani.firebaseapp.com/assets/images/masstraining.jpg";
 }
+
+// Setting Styles (Using CSS is Javascript)
+
+function makeBig() {
+    document.getElementById("p1").className += " big";
+}
+
+function makeBig() {
+    document.getElementById("p1").style.fontSize = "2em";
+}
