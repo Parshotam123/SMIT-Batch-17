@@ -42,3 +42,11 @@ console.log(nValue)
 var nodeToAdd = document.createElement("p");
 
 console.log(nodeToAdd)
+
+var newTxt = document.createTextNode("Hello!");
+
+console.log(newTxt)
+
+nodeToAdd.appendChild(newTxt);
+
+console.log(nodeToAdd)
