@@ -28,3 +28,12 @@ console.log(attVal)
 var target = document.getElementById("div1");
 target.setAttribute("class", "special");
 console.log(target)
+
+// Attributes Name and Values
+
+var list = document.getElementById("p1").attributes;
+
+
+var nValue = list[0].nodeValue;
+console.log(nValue)
+
