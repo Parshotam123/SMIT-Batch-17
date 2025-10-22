@@ -12,3 +12,15 @@ for (var i = 0; i < howManyLi; i++) {
     liElements[i].innerHTML = "coming soon";
   }
 }
+
+// Attributes
+
+var target = document.getElementById("p1");
+var hasClass = target.hasAttribute("class");
+console.log(hasClass)
+
+// Get Attributes and Set Attributes
+
+ var target = document.getElementById("div1");
+ var attVal = target.getAttribute("class");
+ console.log(attVal)
