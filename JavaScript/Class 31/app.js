@@ -34,3 +34,14 @@ var plan1 = {
 
 plan1.discountMonths = [6, 7, 11];
 
+// Want to create a property now and assign it a value later
+
+plan1.specialDiscont = null;
+
+// Delete Property of object
+
+delete plan1.specialDiscont;
+
+// Check to see if a property of an object exists
+
+propertyExists = "price" in plan1;
