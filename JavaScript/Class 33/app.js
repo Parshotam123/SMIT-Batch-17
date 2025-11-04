@@ -26,3 +26,26 @@ var plan1 = {
 var annualPrice = plan1.calcAnnual(0.85);
 
 console.log(annualPrice);
+
+// Using This (Keyword)
+
+var plan1 = {
+  name: "Basic",
+  price: 3.99,
+  space: 100,
+  transfer: 1000,
+  pages: 10,
+  discountMonths: [6, 7],
+  calcAnnual: function (percentIfDisc) {
+    var bestPrice = this.price;
+    var currDate = new Date();
+    var thisMo = currDate.getMonth();
+    for (var i = 0; i < this.discountMonths.length; i++) {
+      if (this.discountMonths[i] === thisMo) {
+        bestPrice = this.price * percentIfDisc;
+        break;
+      }
+    }
+    return bestPrice * 12;
+  },
+};
