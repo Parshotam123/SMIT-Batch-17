@@ -1,3 +1,17 @@
+// Template Literals
+
+let name = "Adil";
+console.log(`Hello, my name is ${name}`);
+
+
+let msg = `
+This is line 1
+This is line 2
+This is line 3
+`;
+
+console.log(msg);
+
 // Default Parameters
 
 function abc(a = "Kuch Likhenge") {
