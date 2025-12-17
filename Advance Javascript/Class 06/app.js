@@ -42,3 +42,21 @@ class Teacher extends Person {
 let t1 = new Teacher();
 t1.speak();
 t1.teach();
+
+// Polymorphism
+
+class Animal {
+    sound() {
+        console.log("Animal makes sound");
+    }
+}
+
+class Dog extends Animal {
+    sound() {
+        console.log("Dog barks");
+    }
+}
+
+let d = new Dog();
+d.sound();
+
