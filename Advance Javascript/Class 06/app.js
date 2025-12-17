@@ -60,3 +60,16 @@ class Dog extends Animal {
 let d = new Dog();
 d.sound();
 
+
+// Abstraction
+
+class Car {
+    start() {
+        this.engineOn();
+        console.log("Car started");
+    }
+
+    engineOn() {
+        console.log("Engine running");
+    }
+}
