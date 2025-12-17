@@ -24,3 +24,21 @@ class BankAccount {
         this.balance += amount;
     }
 }
+
+// Inheritance
+
+class Person {
+    speak() {
+        console.log("Person is speaking");
+    }
+}
+
+class Teacher extends Person {
+    teach() {
+        console.log("Teacher is teaching");
+    }
+}
+
+let t1 = new Teacher();
+t1.speak();
+t1.teach();
